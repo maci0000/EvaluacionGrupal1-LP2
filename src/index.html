@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual de GitHub - Equipo LP2</title>
+    <style>
+        /* Estilos básicos */
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        header {
+            background-color: #24292e;
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        h1 {
+            margin: 0;
+            font-size: 2.2em;
+        }
+        
+        h2 {
+            color: #0366d6;
+            border-bottom: 1px solid #e1e4e8;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        
+        .team-member {
+            background-color: white;
+            border: 1px solid #e1e4e8;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .feature-box {
+            background-color: white;
+            border-left: 4px solid #0366d6;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #586069;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Manual de GitHub</h1>
+        <p>Guía colaborativa para el equipo de LP2</p>
+    </header>
+    
+    <main>
+        <section id="introduccion">
+            <h2>Introducción</h2>
+            <p>Este manual explica cómo usar GitHub para trabajo en equipo, incluyendo:</p>
+            <ul>
+                <li>Gestión de Issues</li>
+                <li>Pull Requests</li>
+                <li>GitHub Projects</li>
+                <li>GitHub Pages</li>
+            </ul>
+        </section>
+        
+        <section id="equipo">
+            <h2>Nuestro Equipo</h2>
+            
+            <div class="team-member">
+                <h3>Luis Arce</h3>
+                <p><strong>Responsabilidades:</strong> Issues y GitHub Projects</p>
+            </div>
+            
+            <div class="team-member">
+                <h3>Sean Huancani</h3>
+                <p><strong>Responsabilidades:</strong> Pull Requests y buenas prácticas</p>
+            </div>
+            
+            <div class="team-member">
+                <h3>Valeska Rodriguez</h3>
+                <p><strong>Responsabilidades:</strong> GitHub Pages y Documentación</p>
+            </div>
+        </section>
+        
+        <section id="github-pages">
+            <h2>GitHub Pages</h2>
+            
+            <div class="feature-box">
+                <h3>¿Qué es?</h3>
+                <p>Servicio gratuito de GitHub para alojar sitios web estáticos directamente desde un repositorio.</p>
+            </div>
+            
+            <div class="feature-box">
+                <h3>¿Cómo configurarlo?</h3>
+                <ol>
+                    <li>Ir a Settings > Pages</li>
+                    <li>Seleccionar la rama (main o gh-pages)</li>
+                    <li>Especificar la carpeta (/docs o /src)</li>
+                    <li>Guardar los cambios</li>
+                </ol>
+                <p>El sitio estará disponible en: <code>https://[usuario].github.io/[repositorio]</code></p>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>© 2025 Equipo LP2 - UNALM</p>
+        <p>Última actualización: <span id="fecha"></span></p>
+    </footer>
+
+    <script>
+        // Mostrar fecha automáticamente
+        document.getElementById('fecha').textContent = new Date().toLocaleDateString('es-ES');
+    </script>
+</body>
+</html>
