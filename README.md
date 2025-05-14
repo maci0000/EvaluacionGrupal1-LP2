@@ -18,14 +18,14 @@ cd tu-repositorio
 ## 👥 Colaboración
 | 🧑‍💻 Integrantes       | 📌 Tareas                  | 🔗 Evidencia            |
 |----------------------|----------------------------|-------------------------|
-| Luis Arce            | 🐞 Issues + 📊 Projects    | [#2](#), [#5](#)        |
-| Sean Huancani        | 🔀 PRs + ⚙️ Automatización | [#1](#),[#6](#) , [PR#2](#)      |
-| Valeska Rodriguez    | 🌐 Pages + 📚 Docs         | [Pages](#),[#3](#),[#4](#),[PR#1] |
+| Luis Arce            | 🐞 Issues + 📊 Projects    | [#2](#), [#5](#), [PR#10](#)         |
+| Sean Huancani        | 🔀 PRs + ⚙️ Automatización | [#1](#),[#6](#) , [PR#8](#), [PR#9](#)       |
+| Valeska Rodriguez    | 🌐 Pages + 📚 Docs         | [Pages](#),[#3](#),[#4](#),[PR#7(#)] |
 
 🔄 Flujo de Trabajo
 
-Crear Issues con etiquetas
-Desarrollar en ramas feature/
-Abrir Pull Requests
-Revisión entre pares
-Merge a main
+    Crear Issues con etiquetas
+    Desarrollar en ramas feature/
+    Abrir Pull Requests
+    Revisión entre pares
+    Merge a main
