@@ -8,15 +8,15 @@ Un **Pull Request** es una solicitud para integrar cambios de una rama a la rama
 2.  Realiza cambios y commits `git commit -m "Descripción clara de los cambios"`.
 3.  Dirigite a la pestaña "Pull Requests" y haz click en "New Pull Request".
 
-![pull request](imagen1.png)
+![pull request](/src/imagen4.png)
 
 4.  Elige las ramas de comparación (la rama de donde hiciste los cambios) y la base (usualmente `master` o `main`).
 
-![ramas elegidas](imagen2.png)
+![ramas elegidas](/src/imagen5.png)
 
 5.  Añade un **titulo** y una descripción detallada de los cambios realizados. Explica por qué estos cambios son necessarios.
 
-![ramas elegidas](imagen3.png)
+![ramas elegidas](/src/imagen6.png)
 
 6. Haz clic en "Create Pull Request" para enviarlo.
 
