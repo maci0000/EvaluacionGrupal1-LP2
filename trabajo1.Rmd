@@ -1,0 +1,78 @@
+---
+title: "proyecto_pull"
+output:
+  html_document:
+    toc: true          # Esto agrega un índice flotante
+    toc_float: true    # Esto hace que el índice sea flotante
+    theme: cerulean    # Puedes usar temas predefinidos como 'cerulean' o crear uno personalizado
+    highlight: tango
+---
+
+### **Pull Request**
+
+Un **Pull Request** es una solicitud para integrar cambios de una rama a la rama principal (`main`/`master`). Facilita la **revisión colaborativa** del código antes de fusionarlo.
+
+#### **Pasos para crear un Pull Request**
+
+1.  Crear una rama nueva (desde tu terminal local)
+
+```{yaml}
+git checkout -b nombre-de-rama
+```
+
+2.  Hacer cambios y commits
+
+-   Edita los archivos en tu editor de código.
+-   Añade los cambios y haz commit:
+
+```{yaml}
+git add .
+git commit -m "Descripción clara de los cambios"
+```
+
+3.  Subir la rama a GitHub
+
+```{yaml}
+git push origin nombre-de-rama  # Ej: git push origin fix-login-validation
+```
+
+4.  Abrir el Pull Request en GitHub
+
+<!-- -->
+
+a.  Ve al repositorio en GitHub.
+b.  Haz clic en la pestaña "Pull Requests".
+c.  Selecciona "New Pull Request".
+
+<!-- -->
+
+5.  Configurar el Pull Request
+
+-   Base branch: Selecciona la rama principal (main o master).
+-   Compare branch: Elige tu rama recién creada.
+-   Título: Describe el cambio en pocas palabras.
+-   Descripción: Explica que cambiaste, por que es necesario, como lo implementaste
+
+6.  Revisar y enviar
+
+-   Verifica los cambios en la pestaña "Files changed".
+-   Haz clic en "Create Pull Request".
+
+#### **¿Qué pasa después?**
+
+-   Revisión: Otros colaboradores comentarán o aprobarán los cambios.
+-   Fusión: Un mantenedor del proyecto aceptará el PR y lo fusionará con main.
+
+##### **Ejemplo**
+
+```{yaml}
+# Flujo completo desde cero:
+git clone https://github.com/usuario/repositorio.git
+cd repositorio
+git checkout -b mi-fix
+# (hacer cambios)
+git add .
+git commit -m "Corrige error X"
+git push origin mi-fix
+# Luego abrir el PR en GitHub.
+```
