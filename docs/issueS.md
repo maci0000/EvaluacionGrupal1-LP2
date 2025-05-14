@@ -1,81 +1,68 @@
-# 📌 Manual de GitHub Issues
+# Manual de Uso de Issues en GitHub 🚨
 
-## ¿Qué son los Issues?
-
-Los *issues* en GitHub son herramientas fundamentales para la colaboración. Permiten registrar errores, sugerencias, tareas, discusiones y más dentro de un repositorio.
-
-Sirven como lista de tareas, canal de comunicación y sistema de seguimiento del proyecto.
+Este manual explica detalladamente cómo utilizar el sistema de **Issues** en GitHub para gestionar tareas, reportar errores, sugerir mejoras y planificar el trabajo colaborativo de un proyecto.
 
 ---
 
-## 🧠 Tipos de Issues
+## 🧩 ¿Qué es un Issue?
 
-Aunque todos los issues son técnicamente iguales, se pueden clasificar según su uso:
+Un Issue es una herramienta que permite registrar:
 
-- 🐛 **Bug**: Reporte de errores en el código.
-- 💡 **Feature Request**: Propuesta de nuevas funciones.
-- 📋 **Tareas**: Actividades por realizar (como pendientes del equipo).
-- ❓ **Dudas o preguntas**: Temas que necesitan aclaración.
-
----
-
-## 🏷️ Etiquetas (Labels)
-
-Las etiquetas permiten clasificar issues según prioridad, tipo o estado. Algunos ejemplos comunes:
-
-- `bug`, `enhancement`, `question`, `urgent`, `help wanted`.
-
-Puedes crear etiquetas personalizadas desde la pestaña **"Labels"** del repositorio.
-
-📌 **Ejemplo visual:**
-
-![Ejemplo de etiquetas](https://docs.github.com/assets/cb-20363/images/help/issues/issues-labels.png)
+- 🐞 Errores encontrados en el proyecto
+- ✨ Sugerencias o mejoras
+- 📋 Tareas pendientes
+- 💬 Discusiones de funcionalidades
 
 ---
 
-## 🙋 Asignaciones
+## ✍️ Cómo crear un Issue
 
-Puedes asignar issues a miembros del equipo para que quede claro quién se responsabiliza de cada tarea.
-
-🔗 También puedes referenciar personas o issues con `@usuario` o `#número-del-issue`.
-
----
-
-## 📄 Ejemplo de Issue creado
-
-**Título**: `Documentar Pull Requests`  
-**Descripción**: Crear una sección en `/docs/pull_requests.md` explicando qué son, cómo se usan y ejemplos prácticos.
+1. Ir a la pestaña **Issues** del repositorio.
+2. Hacer clic en **New Issue**.
+3. Completar:
+   - **Título claro**
+   - **Descripción detallada**
+   - Etiquetas (opcional)
+   - Asignar responsables (opcional)
+4. Hacer clic en **Submit new issue**.
 
 ---
 
-## 💬 Comentarios y seguimiento
+## 🔖 Buenas prácticas
 
-Cada issue incluye un hilo de conversación donde los miembros pueden:
-
-- Comentar avances o dudas.
-- Agregar checklists.
-- Cerrar el issue una vez completado.
+- Escribir títulos breves y precisos.
+- Usar checklists (`- [ ]`) si es una tarea con pasos.
+- Referenciar commits o pull requests usando `#número`.
 
 ---
 
-## 🔗 Recursos útiles
+## 💬 Comentar un Issue
+
+Puedes añadir comentarios con ideas, enlaces, capturas de pantalla o avances relacionados con el Issue.
+
+---
+
+## 🔄 Cerrar un Issue
+
+Un Issue se puede cerrar manualmente o automáticamente con un commit o Pull Request que contenga en su mensaje:
+
+
+---
+
+## 📎 Recursos útiles
 
 - [Documentación oficial de GitHub Issues](https://docs.github.com/en/issues)
-- [Video: ¿Qué es un Issue en GitHub? (YouTube)](https://www.youtube.com/watch?v=KLRKwrKj-1A)
-- [GitHub Labels y Proyectos (Blog GitHub)](https://github.blog/2022-04-05-labels-improved-github-issues/)
+- Video: [¿Qué es un Issue en GitHub?](https://www.youtube.com/watch?v=-oV0q5f2-tg)
 
 ---
 
-## 📸 Capturas de nuestro proyecto
+## 🧠 Ejemplo práctico
 
-A continuación, se deben incluir capturas reales de los issues creados:
+**Título**: Error al cargar página de login  
+**Descripción**: Al acceder a `/login`, la página devuelve un error 500. Se adjunta captura de pantalla.  
+**Etiqueta**: `bug`  
+**Asignado a**: `@usuario`
 
-1. Lista de issues creados con sus etiquetas.
-2. Vista de un issue abierto.
-3. Asignaciones visibles.
+---
 
-📝 Las capturas se deben subir en la carpeta `/docs/images` y referenciarse así:
-
-```markdown
-![Descripción](../docs/images/issue_documentado.png)
-
+> ✅ Recuerda: Un buen uso de Issues mejora la comunicación del equipo y mantiene el proyecto organizado.
