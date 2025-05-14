@@ -1,4 +1,3 @@
-cat > docs/github_projects.md << "EOF"
 # 🧩 Manual de GitHub Projects
 
 Este manual explica cómo utilizar **GitHub Projects** para organizar tareas, asignar responsabilidades y hacer seguimiento del trabajo en equipo en un repositorio.
@@ -94,5 +93,3 @@ GitHub Projects es una herramienta de gestión visual de trabajo dentro de GitHu
 
 Este manual fue elaborado por el equipo de **Evaluación Grupal LP2** como parte de una práctica integral sobre GitHub colaborativo.  
 Autores: Luis, Sean, Maciel.
-
-EOF
