@@ -9,6 +9,10 @@ git https://github.com/maci0000/EvaluacionGrupal1-LP2.git
 cd tu-repositorio
 ```
 
+## 🛠️ Sitio Web
+[https://maci0000.github.io/EvaluacionGrupal1-LP2/](https://maci0000.github.io/EvaluacionGrupal1-LP2/)
+
+
 ## 📌 Recursos Clave
 <li><a href="github_pages.md">Teoría sobre GitHub Pages</a></li>
 <li><a href="/docs/github_projects.md">Teoría sobre GitHub Proyects</a></li>
