@@ -11,16 +11,16 @@ cd tu-repositorio
 
 ## 📌 Recursos Clave
 <li><a href="github_pages.md">Teoría sobre GitHub Pages</a></li>
-<li><a href="*---*">Teoría sobre GitHub Proyects</a></li>
-<li><a href="*---*">Teoría sobre GitHub Pull Request</a></li>
-<li><a href="*---*">Teoría sobre GitHub Issues</a></li>
+<li><a href="/docs/github_projects.md">Teoría sobre GitHub Proyects</a></li>
+<li><a href="/docs/Pull_Request.md">Teoría sobre GitHub Pull Request</a></li>
+<li><a href="/docs/issueS.md">Teoría sobre GitHub Issues</a></li>
 
 ## 👥 Colaboración
 | 🧑‍💻 Integrantes       | 📌 Tareas                  | 🔗 Evidencia            |
 |----------------------|----------------------------|-------------------------|
 | Luis Arce            | 🐞 Issues + 📊 Projects    | [#2](#), [#5](#), [PR#10](#)         |
-| Sean Huancani        | 🔀 PRs + ⚙️ Automatización | [#1](#),[#6](#) , [PR#8](#), [PR#9](#)       |
-| Valeska Rodriguez    | 🌐 Pages + 📚 Docs         | [Pages](#),[#3](#),[#4](#),[PR#7(#)] |
+| Sean Huancani        | 🔀 PRs + ⚙️ Buenas prácticas | [#1](#), [#6](#) , [PR#8](#), [PR#9](#)       |
+| Valeska Rodriguez    | 🌐 Pages + 📚 Docs         | [Pages](#), [#3](#), [#4](#), [PR#7](#) |
 
 🔄 Flujo de Trabajo
 
