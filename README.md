@@ -18,7 +18,7 @@ cd tu-repositorio
 <li><a href="/docs/github_projects.md">Teoría sobre GitHub Proyects</a></li>
 <li><a href="/docs/Pull_Request.md">Teoría sobre GitHub Pull Request</a></li>
 <li><a href="/docs/issueS.md">Teoría sobre GitHub Issues</a></li>
-<li><a href="/docs/Buenas_Practicas.md">Teoría sobre GitHub Issues</a></li>
+<li><a href="/docs/Buenas_Practicas.md">Teoría sobre buenas prácticas</a></li>
 
 ## 👥 Colaboración
 | 🧑‍💻 Integrantes       | 📌 Tareas                  | 🔗 Evidencia            |
