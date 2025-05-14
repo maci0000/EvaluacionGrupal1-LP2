@@ -7,10 +7,6 @@ output:
     highlight: tango
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ### **Pull Request**
 
 Un **Pull Request** es una solicitud para integrar cambios de una rama a la rama principal (`main`/`master`). Facilita la **revisión colaborativa** del código antes de fusionarlo.
