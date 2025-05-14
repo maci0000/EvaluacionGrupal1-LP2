@@ -1,65 +1,81 @@
-# 🧾 Guía completa de GitHub Issues
+# 📌 Manual de GitHub Issues
+
+## ¿Qué son los Issues?
+
+Los *issues* en GitHub son herramientas fundamentales para la colaboración. Permiten registrar errores, sugerencias, tareas, discusiones y más dentro de un repositorio.
+
+Sirven como lista de tareas, canal de comunicación y sistema de seguimiento del proyecto.
 
 ---
 
-## 🧠 ¿Qué es un Issue?
+## 🧠 Tipos de Issues
 
-Los *Issues* en GitHub son herramientas clave para gestionar tareas, errores, mejoras o discusiones dentro de un proyecto. Son ideales para coordinar el trabajo colaborativo de un equipo y documentar el progreso.
+Aunque todos los issues son técnicamente iguales, se pueden clasificar según su uso:
 
----
-
-## 🗂 Tipos comunes de Issues
-
-- 🐛 **Reporte de errores (bugs)**
-- ✨ **Propuesta de mejoras o nuevas funciones**
-- ✅ **Tareas pendientes o To-Dos**
-- ❓ **Consultas o discusiones técnicas**
+- 🐛 **Bug**: Reporte de errores en el código.
+- 💡 **Feature Request**: Propuesta de nuevas funciones.
+- 📋 **Tareas**: Actividades por realizar (como pendientes del equipo).
+- ❓ **Dudas o preguntas**: Temas que necesitan aclaración.
 
 ---
 
-## 🧩 Componentes de un Issue
+## 🏷️ Etiquetas (Labels)
 
-Un Issue puede tener varios elementos importantes:
+Las etiquetas permiten clasificar issues según prioridad, tipo o estado. Algunos ejemplos comunes:
 
-- **Título**: debe ser corto y descriptivo.
-- **Descripción**: explica claramente el problema o propuesta, usando formato Markdown.
-- **Etiquetas (Labels)**: categorizan el tipo de Issue.
-- **Asignado (Assignees)**: miembro(s) del equipo responsables.
-- **Milestone**: vinculación a una etapa del proyecto.
-- **Comentarios**: para coordinar ideas y avances.
-- **Referencias cruzadas**: enlaces a commits, PRs u otros Issues.
+- `bug`, `enhancement`, `question`, `urgent`, `help wanted`.
 
----
+Puedes crear etiquetas personalizadas desde la pestaña **"Labels"** del repositorio.
 
-## 🛠 Cómo crear un Issue (paso a paso)
+📌 **Ejemplo visual:**
 
-1. Ve a la pestaña **Issues** del repositorio.
-2. Haz clic en **New Issue**.
-3. Escribe un título descriptivo.
-4. Detalla el problema o tarea en la descripción (usa Markdown).
-5. Asigna el Issue a un miembro del equipo.
-6. Añade etiquetas relevantes (ej. `bug`, `enhancement`, `help wanted`).
-7. Relaciónalo con un Milestone si aplica.
-8. Haz clic en **Submit new issue**.
-
-📌 Ejemplo visual:
-![Crear un nuevo Issue](images/crear-issue.png)
+![Ejemplo de etiquetas](https://docs.github.com/assets/cb-20363/images/help/issues/issues-labels.png)
 
 ---
 
-## 🔗 Vincular Issues con Commits o Pull Requests
+## 🙋 Asignaciones
 
-Puedes relacionar un Issue con un commit o un PR para que se cierre automáticamente al aprobarse el cambio.
+Puedes asignar issues a miembros del equipo para que quede claro quién se responsabiliza de cada tarea.
 
-Usa palabras clave en el mensaje de commit o descripción del PR:
+🔗 También puedes referenciar personas o issues con `@usuario` o `#número-del-issue`.
 
-- `Fixes #1`
-- `Closes #3`
-- `Resolves #7`
+---
 
-📌 Ejemplo en un Pull Request:
+## 📄 Ejemplo de Issue creado
+
+**Título**: `Documentar Pull Requests`  
+**Descripción**: Crear una sección en `/docs/pull_requests.md` explicando qué son, cómo se usan y ejemplos prácticos.
+
+---
+
+## 💬 Comentarios y seguimiento
+
+Cada issue incluye un hilo de conversación donde los miembros pueden:
+
+- Comentar avances o dudas.
+- Agregar checklists.
+- Cerrar el issue una vez completado.
+
+---
+
+## 🔗 Recursos útiles
+
+- [Documentación oficial de GitHub Issues](https://docs.github.com/en/issues)
+- [Video: ¿Qué es un Issue en GitHub? (YouTube)](https://www.youtube.com/watch?v=KLRKwrKj-1A)
+- [GitHub Labels y Proyectos (Blog GitHub)](https://github.blog/2022-04-05-labels-improved-github-issues/)
+
+---
+
+## 📸 Capturas de nuestro proyecto
+
+A continuación, se deben incluir capturas reales de los issues creados:
+
+1. Lista de issues creados con sus etiquetas.
+2. Vista de un issue abierto.
+3. Asignaciones visibles.
+
+📝 Las capturas se deben subir en la carpeta `/docs/images` y referenciarse así:
 
 ```markdown
-Este PR corrige el error de carga de imagen.  
-Fixes #5
+![Descripción](../docs/images/issue_documentado.png)
 
