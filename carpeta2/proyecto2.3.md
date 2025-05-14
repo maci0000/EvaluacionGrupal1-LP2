@@ -39,21 +39,22 @@ Estas son algunas recomendaciones para trabajar de manera eficiente y colaborati
 
 ## 🔹 Buenas practicas en Pull Requests(PRs)
 
-  ### 1. PRs pequeños y enfocados
-   - Un PR = una funcionalidad especifica(evita mezclar cambios no relacionados).
-  ### 2. Revisa tus cambios antes de crear un PR
-   - Usa git diff o herramientas gráficas para ver qué modificiaste.
-  ### 3. Describe claramente tu PR
-   - Incluye:
-      - Que cambiaste.
-      - Por qué lo hiciste
-      - Capturas de pantalla
-  ### 4. Solicita revisión a tus compañeros
-   - Asigan reviwes en GitHub(pestaña derecha en el PR).
-  ### 5. Resuelve los comentarios antes de fusionar
-   - Si te piden cambios, haz nuevos commits en la misma rama.
+1. **PRs pequeños y enfocados**
+     - Un PR = una funcionalidad especifica(evita mezclar cambios no relacionados).
+2. **Revisa tus cambios antes de crear un PR**
+     - Usa git diff o herramientas gráficas para ver qué modificiaste.
+3. **Describe claramente tu PR**
+     - Incluye:
+        - Que cambiaste.
+        - Por qué lo hiciste
+        - Capturas de pantalla
+4. **Solicita revisión a tus compañeros**
+     - Asigan reviwes en GitHub(pestaña derecha en el PR).
+5. **Resuelve los comentarios antes de fusionar**
+     - Si te piden cambios, haz nuevos commits en la misma rama.
 
 ## 🔹 QUE EVITAR
-- Commits del tipo "cambios" sin explicación
-- PRs con cientos de cambios no relacionados
-- Fusioanr tu propio PR sin revisión (a menos que sea urgente)
+
+     - Commits del tipo "cambios" sin explicación
+     - PRs con cientos de cambios no relacionados
+     - Fusioanr tu propio PR sin revisión (a menos que sea urgente)
