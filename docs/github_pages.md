@@ -10,6 +10,8 @@ Esto lo hace ideal para portafolios, blogs, documentación, proyectos académico
 ---
 ## 2. ¿Para qué sirve GitHub Pages?
 
+GitHub Pages es una herramienta que permite publicar sitios web directamente desde un repositorio de GitHub. Es útil para hospedar sitios estáticos, como documentación, portafolios, blogs o proyectos personales, sin necesidad de configurar un servidor.
+
 ---
 ## 3. ¿Cómo publicar un sitio estático?
 
@@ -20,10 +22,11 @@ A continuación, se describen los pasos básicos para publicar un sitio usando G
 3. Crear una carpeta llamada `/docs` y colocar allí tu archivo.
 4. Subir todo al repositorio (hacer _commit_ y _push_).
 5. Ir a la pestaña **Settings** del repositorio.
-![Settings](src/imagen1.png)
+![Settings](/src/imagen1.png)
+
 6. En la sección **Pages**, seleccionar la rama principal (`main`) y la carpeta `/docs` como fuente.
-![Pages](src/imagen2.png)
-![docs](src/imagen3.png)
+![Pages](/src/imagen2.png)
+![docs](/src/imagen3.png)
 7. Guardar los cambios.
 8. Después de unos segundos, tu sitio estará disponible en: 
 https://[usuario].github.io/[repositorio]
