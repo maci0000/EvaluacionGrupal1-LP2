@@ -14,7 +14,7 @@ cd tu-repositorio
 
 
 ## 📌 Recursos Clave
-<li><a href="github_pages.md">Teoría sobre GitHub Pages</a></li>
+<li><a href="/docs/github_pages.md">Teoría sobre GitHub Pages</a></li>
 <li><a href="/docs/github_projects.md">Teoría sobre GitHub Proyects</a></li>
 <li><a href="/docs/Pull_Request.md">Teoría sobre GitHub Pull Request</a></li>
 <li><a href="/docs/issueS.md">Teoría sobre GitHub Issues</a></li>
