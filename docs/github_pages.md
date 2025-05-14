@@ -1,6 +1,6 @@
 # 📁 Publicar un sitio con GitHub Pages
 
-## 1. ¿Qué es GitHub Pages?
+## 1. ¿Qué es GitHub Pages? 😸
 
 **GitHub Pages** es un servicio gratuito de GitHub que permite publicar sitios web estáticos directamente desde un repositorio. Puedes usar archivos HTML, CSS, JavaScript o Markdown, y mostrar el contenido en una dirección pública como: https://usuario.github.io/repositorio
 
@@ -8,12 +8,30 @@
 Esto lo hace ideal para portafolios, blogs, documentación, proyectos académicos, entre otros.
 
 ---
-## 2. ¿Para qué sirve GitHub Pages?
+## 2. ¿Para qué sirve GitHub Pages? 🔗
 
 GitHub Pages es una herramienta que permite publicar sitios web directamente desde un repositorio de GitHub. Es útil para hospedar sitios estáticos, como documentación, portafolios, blogs o proyectos personales, sin necesidad de configurar un servidor.
 
+Usos principales de GitHub Pages
+✅ Publicar sitios web fácilmente
+- Subes tus archivos HTML, CSS y JavaScript a GitHub, y GitHub Pages los muestra en una URL pública.
+✅ Documentación de proyectos
+- Ideal para crear una wiki o manual de uso para tu código.
+✅ Blogs y páginas personales
+- Puedes crear tu propio blog o portafolio y alojarlo sin pagar hosting.
+✅ Compatible con Jekyll
+- Puedes generar sitios estáticos con Markdown y automatizar la publicación.
+🚀 Cómo activar GitHub Pages
+- Ve a Settings en tu repositorio.
+- Busca la sección "Pages".
+- Elige la rama (main o gh-pages) desde la que quieres publicar.
+- GitHub generará una URL del tipo:
+https://usuario.github.io/repositorio/
+- El sitio estará en línea 🎉.
+
+
 ---
-## 3. ¿Cómo publicar un sitio estático?
+## 3. ¿Cómo publicar un sitio estático? 📌
 
 A continuación, se describen los pasos básicos para publicar un sitio usando GitHub Pages:
 
@@ -34,7 +52,7 @@ https://[usuario].github.io/[repositorio]
 
 ---
 
-## 4. Estructura ideal de un repositorio
+## 4. Estructura ideal de un repositorio 📩
 
 Se recomienda organizar el repositorio con la siguiente estructura:
 
